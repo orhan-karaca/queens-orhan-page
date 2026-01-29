@@ -72,6 +72,27 @@ h2:first-of-type{
   margin-top: .5rem;
 }
 
+/* === Decorative purple background bubbles === */
+body::before,
+body::after{
+  content: "";
+  position: fixed;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(201,167,255,.35), transparent 70%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+body::before{
+  top: -120px;
+  left: -120px;
+}
+
+body::after{
+  bottom: -140px;
+  right: -140px;
+}
 
 /* Links: purple underline, black text */
 a{
