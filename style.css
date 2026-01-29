@@ -1,1 +1,7 @@
+:root{
+  --purple: #c9a7ff;
+  --black:  #07070a;
+  --cream:  #f6f0e6;
 
+  --radius: 16px;
+  --shadow: 0 18px 50px rgba(0,0,0,.55);
