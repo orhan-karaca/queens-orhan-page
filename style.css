@@ -58,14 +58,14 @@ main{
 
 /* === Section Headings === */
 h2{
-  margin: 2.5rem 0 0.9rem;
-  font-size: 1.6rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding-bottom: 0.6rem;
-  border-bottom: 2px solid rgba(201,167,255,.45);
+  margin: 1.75rem 0 .65rem;
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
 }
 
+h2:first-of-type{
+  margin-top: .25rem;
+}
 
 
 
