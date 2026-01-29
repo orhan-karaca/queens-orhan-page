@@ -26,12 +26,14 @@ header{
   padding-top: 2.25rem;
   padding-bottom: 1.25rem;
 }
-
+/* === "Orhan Karaca" header sizing and alignment === */
 header h1{
   margin: 0;
+  padding-left: 0.5rem;
   font-size: clamp(2rem, 3.6vw, 3rem);
   letter-spacing: -0.02em;
 }
+
 
 header h1::after{
   content: "";
