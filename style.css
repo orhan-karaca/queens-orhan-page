@@ -94,6 +94,16 @@ body::after{
   right: -140px;
 }
 
+/* === Purple text bubbles for emphasized text === */
+strong{
+  position: relative;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(201,167,255,.45);
+  color: var(--black);
+}
+
 /* Links: purple underline, black text */
 a{
   color: var(--black);
