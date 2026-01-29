@@ -46,14 +46,14 @@ header h1::after{
 /* === Main Card's sizing, colors, dimensions === */
 
 main{
-  margin-top: 1.25rem;
-  margin-bottom: 3.25rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   background: var(--cream);
   color: var(--black);
-  border-radius: 18px;
-  padding: 2rem;
-  box-shadow: 0 22px 56px rgba(0,0,0,.6);
-  border: 2px solid rgba(201,167,255,.4);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  box-shadow: var(--shadow);
+  border: 2px solid rgba(201,167,255,.35);
 }
 
 
