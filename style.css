@@ -11,9 +11,12 @@
 /* === Padding and borders === */
 *{ box-sizing: border-box; }
 
+/* === Sets page-wide font, colors, background and full screen height === */
 body{
   margin: 0;
 font-family: system-ui, sans-serif;
   background: var(--black);
   color: var(--cream);
   line-height: 1.6;
+}
+
