@@ -21,6 +21,15 @@ body{
   line-height: 1.6;
 }
 
+/* === Center content and remove side stretch === */
+header,
+main{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* === Header spacing === */
 header{
   padding-top: 2.25rem;
