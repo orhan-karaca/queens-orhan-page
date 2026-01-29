@@ -1,4 +1,5 @@
-/* === Colors Used: === */
+/* ===  Design values used across the site
+   These make colors and spacing easy to change later === */
 :root{
   --purple: #c9a7ff;
   --black:  #07070a;
@@ -8,23 +9,24 @@
   --shadow: 0 18px 50px rgba(0,0,0,.55);
 }
 
-/* === Padding and borders === */
+/* ===  Basic page defaults
+   Sets consistent sizing and font for the whole page === */
 *{ box-sizing: border-box; }
 
-/* === Sets page-wide font, colors, background and full screen height === */
 body{
   margin: 0;
-font-family: system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
   background: var(--black);
   color: var(--cream);
   line-height: 1.6;
 }
 
-/* === Header's letter sizing and dimensions. === */
+/* === Header spacing === */
 header{
   padding-top: 2.25rem;
   padding-bottom: 1.25rem;
 }
+
 /* === "Orhan Karaca" header sizing and alignment === */
 header h1{
   margin: 0;
@@ -33,6 +35,7 @@ header h1{
   letter-spacing: -0.02em;
 }
 
+/* Decorative accent under name */
 header h1::after{
   content: "";
   display: block;
@@ -44,7 +47,6 @@ header h1::after{
 }
 
 /* === Main Card's sizing, colors, dimensions === */
-
 main{
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -56,16 +58,21 @@ main{
   border: 2px solid rgba(201,167,255,.35);
 }
 
-/* === Section Headings === */
+/* === Section Headings
+   Adds spacing and a divider to clearly separate sections === */
 h2{
-  margin: 1.75rem 0 .65rem;
+  margin: 2rem 0 .75rem;
   font-size: 1.35rem;
   letter-spacing: -0.01em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(201,167,255,.4);
 }
 
 h2:first-of-type{
-  margin-top: .25rem;
+  margin-top: .5rem;
 }
+
+
 
 
 
