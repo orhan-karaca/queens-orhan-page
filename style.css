@@ -1,3 +1,4 @@
+/* === Colors Used: === */
 :root{
   --purple: #c9a7ff;
   --black:  #07070a;
@@ -5,3 +6,14 @@
 
   --radius: 16px;
   --shadow: 0 18px 50px rgba(0,0,0,.55);
+}
+
+/* === Padding and borders === */
+*{ box-sizing: border-box; }
+
+body{
+  margin: 0;
+font-family: system-ui, sans-serif;
+  background: var(--black);
+  color: var(--cream);
+  line-height: 1.6;
